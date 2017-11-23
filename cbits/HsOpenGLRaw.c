@@ -86,6 +86,7 @@ typedef void (*genericFunctionPointer)(void);
 typedef genericFunctionPointer (*PFNGLXGETPROCADDRESSARB)(const GLubyte *);
 
 static const char* gpaNames[] = {
+  "eglGetProcAddress", 
   "glXGetProcAddress", "glXGetProcAddressARB", "glXGetProcAddressEXT",
   "_glXGetProcAddress", "_glXGetProcAddressARB", "_glXGetProcAddressEXT"
 };
